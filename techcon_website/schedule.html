@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule for TechCon 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for better aesthetics */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Basic table styling for readability */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #e2e8f0; /* Tailwind's border-gray-200 */
+            padding: 0.75rem; /* Tailwind's p-3 */
+            text-align: left;
+        }
+        th {
+            background-color: #f8fafc; /* Tailwind's bg-gray-50 */
+        }
+        /* Ensure caption is centered and styled */
+        caption {
+            caption-side: top;
+            text-align: center;
+            font-size: 1.25rem; /* Tailwind's text-xl */
+            font-weight: bold; /* Tailwind's font-bold */
+            margin-bottom: 1rem; /* Tailwind's mb-4 */
+            color: #1a202c; /* Tailwind's text-gray-900 */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 min-h-screen flex flex-col">
+    <header class="bg-blue-600 text-white p-4 shadow-md rounded-b-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-2 md:mb-0">Schedule for TechCon 2024</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="hover:text-blue-200 transition-colors duration-200 text-lg">Home</a></li>
+                    <li><a href="about.html" class="hover:text-blue-200 transition-colors duration-200 text-lg">About</a></li>
+                    <li><a href="register.html" class="hover:text-blue-200 transition-colors duration-200 text-lg">Register</a></li>
+                    <li><a href="contact.html" class="hover:text-blue-200 transition-colors duration-200 text-lg">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 p-6 bg-white rounded-lg shadow-xl flex-grow">
+        <h2 class="text-2xl font-semibold mb-6 text-center">Event Timetable</h2>
+
+        <div class="overflow-x-auto rounded-lg shadow-sm">
+            <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+                <caption class="caption-top text-xl font-bold mb-4 text-gray-900">Detailed Schedule of Events for TechCon 2024</caption>
+                <thead>
+                    <tr class="bg-gray-50">
+                        <th scope="col" class="py-3 px-4 border-b border-gray-200 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider rounded-tl-lg">Time</th>
+                        <th scope="col" class="py-3 px-4 border-b border-gray-200 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider">Session</th>
+                        <th scope="col" class="py-3 px-4 border-b border-gray-200 text-left text-sm font-semibold text-gray-700 uppercase tracking-wider rounded-tr-lg">Speaker</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200">9:00 AM - 9:30 AM</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Registration & Welcome Coffee</td>
+                        <td class="py-3 px-4 border-b border-gray-200">TechCon Team</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200">9:30 AM - 10:30 AM</td>
+                        <td class="py-3 px-4 border-b border-gray-200 font-medium text-blue-700">Opening Keynote: The Future of AI</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Dr. Evelyn Reed (AI Ethicist)</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200">10:30 AM - 11:00 AM</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Networking Break</td>
+                        <td class="py-3 px-4 border-b border-gray-200">N/A</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200">11:00 AM - 12:00 PM</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Track A: AI in Healthcare <br> Track B: Web3 Innovations</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Dr. Alex Chen / Ms. Sarah Lee</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200">12:00 PM - 1:00 PM</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Lunch Break</td>
+                        <td class="py-3 px-4 border-b border-gray-200">N/A</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200">1:00 PM - 2:00 PM</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Track A: Ethical AI <br> Track B: Decentralized Finance</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Mr. David Kim / Dr. Emily White</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200">2:00 PM - 3:00 PM</td>
+                        <td class="py-3 px-4 border-b border-gray-200 font-medium text-blue-700">Panel Discussion: Tech for Good</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Industry Leaders</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200">3:00 PM - 3:30 PM</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Coffee Break</td>
+                        <td class="py-3 px-4 border-b border-gray-200">N/A</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 border-b border-gray-200 rounded-bl-lg">3:30 PM - 4:30 PM</td>
+                        <td class="py-3 px-4 border-b border-gray-200">Closing Remarks & Awards</td>
+                        <td class="py-3 px-4 border-b border-gray-200 rounded-br-lg">TechCon Organizers</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center mt-8 rounded-t-lg">
+        <div class="container mx-auto">
+            <p class="text-sm">&copy; 2024 TechCon. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
